@@ -22,7 +22,7 @@ namespace classe_subclasse
             Saldo = saldo;
         }
         //Criação dos métodos Saque e Deposito.
-        public void Saque(double saldoTotal)
+        public virtual void Saque(double saldoTotal)
         {
             Saldo -= saldoTotal;
         }
