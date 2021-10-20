@@ -5,7 +5,7 @@ using System.Text;
 namespace classe_subclasse
 {
     //Criação da subclasse, que recebe heranças de Conta.
-    class ContaJuridica : Conta
+   abstract class ContaJuridica : Conta
     {
         //Criação da variável EmprestimoLimite junto de encapsulamento.
         public double EmprestimoLimite { get; set; }

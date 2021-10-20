@@ -2,7 +2,7 @@
 
 namespace classe_subclasse
 {
-    class Program
+   abstract class Program
     {
         static void Main(string[] args)
         {

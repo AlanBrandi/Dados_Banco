@@ -4,7 +4,7 @@ using System.Text;
 
 namespace classe_subclasse
 {
-    class ContaPoupanca : Conta
+    abstract class ContaPoupanca : Conta
     {
         //Definição da variável TaxaJuros.
         public double TaxaJuros { get; set; }
