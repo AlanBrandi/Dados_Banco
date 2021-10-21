@@ -4,7 +4,7 @@ using System.Text;
 
 namespace classe_subclasse
 {
-    abstract class ContaPoupanca : Conta
+    class ContaPoupanca : Conta
     {
         //Definição da variável TaxaJuros.
         public double TaxaJuros { get; set; }
@@ -23,6 +23,7 @@ namespace classe_subclasse
             Saldo += Saldo * TaxaJuros;
         }
         //Método + override de Saque.
+        
         public override void Saque(double saldoTotal)
         {
             base.Saque(saldoTotal);

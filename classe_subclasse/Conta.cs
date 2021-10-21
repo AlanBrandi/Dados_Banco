@@ -4,7 +4,7 @@ using System.Text;
 
 namespace classe_subclasse
 {
-   public abstract class Conta
+    abstract public class Conta
     {
         //Criação das variáveis, com o encapsulamento.
         public int Numero { get; private set;}
